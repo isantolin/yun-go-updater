@@ -6,7 +6,7 @@ mkdir -p distrib/{linux32,linux64,linuxarm,windows,osx}/{tftp,avr}
 export GOPATH=$PWD
 
 u_boot_fw=u-boot-arduino-lede.bin
-sysupgrade_fw_name=ledeyun-17.11-r6773+1-8dd3a6e-ar71xx-generic-arduino-yun-squashfs-sysupgrade.bin
+sysupgrade_fw_name=openwrt-19.07.4-ar71xx-generic-arduino-yun-squashfs-sysupgrade.bin
 
 #run a dry `go get` dry run to retrieve dependencies
 export GOPATH=$PWD
